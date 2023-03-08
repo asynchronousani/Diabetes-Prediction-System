@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # loading the saved models
-diabetes_model = pickle.load(open('C:/Users/Anirudh128/Desktop/Projects/Diabetes Prediction System/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # Diabetes Prediction Page   
 # page title
